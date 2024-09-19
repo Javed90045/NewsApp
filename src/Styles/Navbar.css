@@ -1,0 +1,43 @@
+.Container{
+    height: 80px;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.searchBox{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+input{
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+button{
+    border: none;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+}
+button:hover{
+    background-color: gray;
+}
+
+

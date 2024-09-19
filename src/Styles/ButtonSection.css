@@ -1,0 +1,25 @@
+.ButtonSection{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.Buttons{
+    display: flex;
+    gap: 10px;
+}
+.Buttons button{
+    padding: 5px 25px;
+    background: red;
+    color: white;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 500;
+}
