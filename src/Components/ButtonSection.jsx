@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/ButtonSection.css";
-const ButtonSection = () => {
+const ButtonSection = ({ButtonName}) => {
     const Buttons = [{
             Name: 'Sport'},
             {Name: 'Politics'},
@@ -17,7 +17,7 @@ const ButtonSection = () => {
         <div className='Buttons'>
         {
             Buttons.map((item) =>(
-                <button key={item.Name}>{item.Name}</button>
+                <button key={item.Name} onClick={()=>ButtonName(item.Name)}>{item.Name}</button>
             ))
         }
     </div>
